@@ -1,0 +1,7 @@
+
+
+# Enter Form Data <field1> <field2> <field3>
+* Enter text <field1> into field with default value "field1"
+* Enter text <field1> into field with default value "field2"
+* Enter text <field1> into field with default value "field3"
+* Click "submit" button

@@ -1,0 +1,41 @@
+BOLT Lite LICENSE
+Version 1.0, 1 March 2018
+Copyright (c) 2018 SWAT Solutions, Inc.
+
+PLEASE READ THIS AGREEMENT CAREFULLY. BY COPYING, INSTALLING, OR USING ALL OR ANY PORTION OF THIS SOFTWARE, YOU (HEREINAFTER “CUSTOMER”) ACCEPT ALL THE TERMS AND CONDITIONS OF THIS AGREEMENT WITH SWAT SOLUTIONS, INC. (HEREINAFTER "AUTHOR"). 
+
+The Software is LICENSED, NOT SOLD, only in accordance with the terms of this agreement. 
+
+Use of the software
+Author grants Customer a revocable, non-exclusive, non-transferable, limited license to download, install and use the Application for personal, or commercial purposes strictly in accordance with the terms of this Agreement
+
+Restrictions
+Customer agrees not to license, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose or otherwise commercially exploit the Application or make the Application available to any third party.
+
+No Modifications 
+Except as expressly permitted in writing by Author, Customer may not modify, port, adapt, or translate the Software.
+
+No Reverse Engineering 
+Customer will not reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code of the Software.
+
+Updates
+Author reserves the right to modify, suspend or discontinue, temporarily or permanently, the Application or any service to which it connects, with or without notice and without liability to you.
+
+Intellectual Property Ownership.
+The Software and any authorized copies that Customer makes are the intellectual property of and are owned by Author. The structure, organization, and source code of the Software are the valuable trade secrets and confidential information of Author and its suppliers. The Software is protected by law, including but not limited to the copyright laws of the United States and other countries, and by international treaty provisions. Except as expressly stated herein, this agreement does not grant Customer any intellectual property rights in the Software. All rights not expressly granted are reserved by Author and its suppliers.
+
+LIMITATION OF LIABILITY. 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Term
+This Agreement shall remain in effect until terminated byAuthor. Author may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement with or without prior notice.
+
+This Agreement will terminate immediately, without prior notice from Author, in the event that Customer fails to comply with any provision of this Agreement. Customer may also terminate this Agreement by deleting the Application and all copies thereof from your mobile device or from their computer.
+
+Modifications
+Author may change the agreement at any time without notification to customer.
+
+Governing Law
+This Agreement shall be construed in accordance with the laws of the state of Minnesota.
+
+Any questions about this Agreement should be directed to bolt@swatsolutions.com.

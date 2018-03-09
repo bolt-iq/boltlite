@@ -1,0 +1,13 @@
+Page,Object,Type,Value
+WORK HERE,button,class,mybtn-big
+OPENINGS,button,class,atsButton
+,dropdown,class,atsSelect
+,keyword field,name,j_id0:j_id1:atsForm:j_id77
+SEARCHPAGE,textField,name,j_id0:j_id1:atsForm:j_id77
+,dropdown,class,atsSelect
+,searchButton,class,atsButton
+,button,class,mybtn-big
+USERFEEDBACK,textField,class,form-control
+,button,class,btn-default
+CONFERENCESCHEDULE,button,class,btn
+,textField,class,form-control
