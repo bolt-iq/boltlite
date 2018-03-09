@@ -3,6 +3,8 @@
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/boltiq_io)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RztvL8U7eEw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RztvL8U7eEw/0.jpg)](https://www.youtube.com/watch?v=RztvL8U7eEw)
+
 BOLT Lite is an automated testing library to help developers, QA, and business start building an automated testing suite in less time and at a lower cost. BOLT Lite is the free version of BOLT Test, providing a way for teams to get started in Automation. The full version of BOLT comes with a suite of integrations and features to build out a full automation suite. This repo provides the BOLT Lite library along with an environment setup to start building tests immediately. There are also a few sample specs included to show how tests are created within BOLT. As BOLT Lite is free, there are many features that have been restricted and/or removed. A full list of features is provided below.
 
 ## Technical Overview for Developer, Automation Engineer, SDET, and technical individuals
