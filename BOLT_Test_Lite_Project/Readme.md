@@ -1,9 +1,7 @@
 # [<img src="http://www.boltiq.io/wp-content/uploads/2018/01/BOLTBig-174x100.png" alt="Flutter" width="174" height="100" />](http://www.boltiq.io)
 [![Join Gitter Chat Channel -](https://badges.gitter.im/flutter/flutter.svg)](https://gitter.im/BOLT-IQ/Community)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/boltiq_io)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RztvL8U7eEw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RztvL8U7eEw/0.jpg)](https://www.youtube.com/watch?v=RztvL8U7eEw)
 
 <img src="http://www.boltiq.io/assets/boltlite.gif" alt="Intelligent Quality">
 
