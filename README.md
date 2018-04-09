@@ -138,61 +138,63 @@ After each execution of tests on BOLT Test is completed, an HTML report is gener
 There are many properties that can be defined in the property files to specify the application under test, browser, bug reporting, and much more. Below is a complete list of the options for the properties file.
 Some of these options are only for the paid version of BOLT Test and they are defined. For information on cost, please visit [BOLTIQ](http://www.boltiq.io)
 
-|Property                          |Description                                                                                                |
+<the "\_" is used to prevent markdown from italicizing sections of the property. When "\_" is seen here, it simply means a "_">
+
+|Property	                        |Description                                                                                                |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------|
-|REMOTE_SYSTEM                     |Defines which remote system to be using, saucelabs, browserstack, or openshift.                            |
-|BROWSER                           |Defines the browser to test within.                                                                        |
-|BROWSER_VERSION                   |Available to specify a specific browser version. Selects the latest available version if empty.            |
-|REMOTE                                |True to run on the defined remote system                                                                   |
-|REMOTEURL                         |Default remote system url to use if remote_system is empty                                                 |
-|BROWSERSTACK_URL                  |URL to connect to for a browserstack test run                                                              |
-|SAUCELABS_URL                     |URL to connect to for a saucelabs test run                                                                 |
-|OPENSHIFT_URL                     |URL to connect to for an openshift test run                                                                |
-|ELEMENT_DEFINITIONS               |File location of the element definitions csv file                                                          |
-|ELEMENT_WAIT_TIME                 |Maximum time to wait for an element                                                                        |
-|IP                                    |IP address of the AUT (used for JMeter testing)                                                            |
-|PORT                              |Port of the AUT (used for JMeter testing)                                                                  |
-|AUT_URL                           |URL of the AUT (Application Under Test)                                                                    |
-|BUTTON_TYPE                       |WebElement type of buttons in the AUT                                                                      |
-|LABEL_TYPE                            |WebElement type of labels in the AUT                                                                       |
-|SPECIAL_TEXT_ATTRIBUTE                |WebElement attribute for element text if text is stored in an attribute instead of in a standard manor.    |
-|PAGE_HEADING_LEVEL                    |Heading level of the page titles (h1,h2,h3, etc)                                                           |
-|TEXT_FIELD_TYPE                   |WebElement type of text fields                                                                             |
-|TEXT_AREA_TYPE                        |WebElement type of text areas                                                                              |
-|CHECKBOX_TYPE                     |WebElement type of checkboxes                                                                              |
-|FIELD_DEFAULT_FIELD_ATTRIBUTE     |WebElement attribute of text field default values                                                          |
-|TEXTAREA_DEFAULT_FIELD_ ATTRIBUTE |WebElement attribute of text area default values                                                           |
-|INITIAL_AUT_LOAD_TIME_MS          |Optional wait for initial loading of the AUT                                                               |
-|FLASH_SERVER_PORT                 |Port for the flash report to persist upon                                                                  |
-|REMOTE_HOST_#                     |Location of remote nodes to use with jmeter testing.                                                       |
-|REPORT_TO_JIRA                        |true to report bugs/failures to jira                                                                       |
-|JIRA_URL                          |the domain for jira (https://your_domain.atlassian.net)                                                    |
-|JIRA_PROJECT_ID                   |the id of the project to report bugs to                                                                    |
-|JIRA_AUTHORIZATION                    |username:password encoded with base64 for the user automation will use to report bugs                      |
-|JIRA_SECONDS_BETWEEN_COMMENTS     |Adds comments to a bug only if there was no activity on the bug for this number of seconds                 |
+|REMOTE_SYSTEM	                    |Defines which remote system to be using, saucelabs, browserstack, or openshift.                            |
+|BROWSER	                        |Defines the browser to test within.                                                                        |
+|BROWSER_VERSION	                |Available to specify a specific browser version. Selects the latest available version if empty.            |
+|REMOTE	                            |True to run on the defined remote system                                                                   |
+|REMOTEURL	                        |Default remote system url to use if remote_system is empty                                                 |
+|BROWSERSTACK_URL	                |URL to connect to for a browserstack test run                                                              |
+|SAUCELABS_URL	                    |URL to connect to for a saucelabs test run                                                                 |
+|OPENSHIFT_URL	                    |URL to connect to for an openshift test run                                                                |
+|ELEMENT_DEFINITIONS	            |File location of the element definitions csv file                                                          |
+|ELEMENT\_WAIT_TIME	                |Maximum time to wait for an element                                                                        |
+|IP	                                |IP address of the AUT (used for JMeter testing)                                                            |
+|PORT	                            |Port of the AUT (used for JMeter testing)                                                                  |
+|AUT_URL	                        |URL of the AUT (Application Under Test)                                                                    |
+|BUTTON_TAG	                        |WebElement tag of buttons in the AUT                                                                      |
+|LABEL_TAG	                        |WebElement tag of labels in the AUT                                                                       |
+|SPECIAL\_TEXT_ATTRIBUTE	        |WebElement attribute for element text if text is stored in an attribute instead of in a standard manor.    |
+|PAGE\_HEADING_LEVEL	            |Heading level of the page titles (h1,h2,h3, etc)                                                           |
+|TEXT\_FIELD_TAG	                |WebElement tag of text fields                                                                             |
+|TEXT\_AREA_TAG	                    |WebElement tag of text areas                                                                              |
+|CHECKBOX_TAG	                    |WebElement tag of checkboxes                                                                              |
+|FIELD\_DEFAULT\_FIELD_ATTRIBUTE    |WebElement attribute of text field default values                                                          |
+|TEXTAREA\_DEFAULT\_FIELD_ ATTRIBUTE|WebElement attribute of text area default values                                                           |
+|INITIAL\_AUT\_LOAD\_TIME_MS        |Optional wait for initial loading of the AUT                                                               |
+|FLASH\_SERVER_PORT	                |Port for the flash report to persist upon                                                                  |
+|REMOTE\_HOST_#	                    |Location of remote nodes to use with jmeter testing.                                                       |
+|REPORT_TO_JIRA	                    |true to report bugs/failures to jira                                                                       |
+|JIRA_URL	                        |the domain for jira (https://your_domain.atlassian.net)                                                    |
+|JIRA\_PROJECT_ID	                |the id of the project to report bugs to                                                                    |
+|JIRA_AUTHORIZATION	                |username:password encoded with base64 for the user automation will use to report bugs                      |
+|JIRA\_SECONDS\_BETWEEN_COMMENTS    |Adds comments to a bug only if there was no activity on the bug for this number of seconds                 |
 
 
-|DB.PROPERTIES         |Properties for pulling data from a database to use for specs.  |
+|DB.PROPERTIES	        |Properties for pulling data from a database to use for specs.  |
 |-----------------------|---------------------------------------------------------------|
-|QUERY_#               |The query to make ('#' is the index starting at 1)             |
-|FILENAME_#                |The filename to store the query results                        |
-|PERSISTANCE_UNIT      |The persistanceUnit to use for all queries unless overridden   |
-|PERSISTANCE_UNIT_#        |The persistanceUnit to use for a given query                   |
+|QUERY_#	            |The query to make ('#' is the index starting at 1)             |
+|FILENAME_#	            |The filename to store the query results                        |
+|PERSISTANCE_UNIT	    |The persistanceUnit to use for all queries unless overridden   |
+|PERSISTANCE\_UNIT_#    |The persistanceUnit to use for a given query                   |
 
 
-|Appuim.properties         |Properties for appium                                              |
+|Appuim.properties	        |Properties for appium                                              |
 |---------------------------|-------------------------------------------------------------------|
-|RUN_WITH_APPIUM           |True to run tests using appium                                     |
-|APP_LOCATION              |Location of the app under test (leave empty if testing webapp)     |
-|MOBILE_BROWSER                |Browser to use for appium testing                                  |
-|MOBILE_BROWSER_VERSION        |Browser verison to use for appium testing                          |
-|AUT                       |Url for the AUT on mobile                                          |
-|PLATFORM                  |iOS or Android                                                     |
-|PLATFORM_VERSION          |Version of iOS or Android                                          |
-|DEVICE_NAME               |Name of the device to test                                         |
-|REAL_MOBILE               |True for testing on a real device (for use with external services) |
-|APPIUM_SERVER             |Location of the appium server (or external service)                |
-|APPIUM_VERSION                |Version of appium to test (optional)                               |
+|RUN\_WITH_APPIUM	        |True to run tests using appium                                     |
+|APP_LOCATION	            |Location of the app under test (leave empty if testing webapp)     |
+|MOBILE_BROWSER	            |Browser to use for appium testing                                  |
+|MOBILE\_BROWSER_VERSION    |Browser verison to use for appium testing                          |
+|AUT	                    |Url for the AUT on mobile                                          |
+|PLATFORM	                |iOS or Android                                                     |
+|PLATFORM_VERSION	        |Version of iOS or Android                                          |
+|DEVICE_NAME	            |Name of the device to test                                         |
+|REAL_MOBILE	            |True for testing on a real device (for use with external services) |
+|APPIUM_SERVER	            |Location of the appium server (or external service)                |
+|APPIUM_VERSION	            |Version of appium to test (optional)                               |
 
 
 ## Building custom steps
