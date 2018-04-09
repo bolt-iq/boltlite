@@ -21,8 +21,6 @@ This step is utilizing the table above and this test will be run once per entry 
 * Click "Add to Cart" button
 * Delay "1000" milliseconds
 
-Clicking the x on the popup using the element attribute "aria-label" matching "Close"
-* Click element with attribute "aria-label" and value "Close"
 
 
 Add Fire TV to cart
@@ -33,5 +31,8 @@ Add Fire TV to cart
 * Click "Add to Cart" button
 * Delay "1000" milliseconds
 
+
+
+---
 Clicking the x on the popup using the element attribute "aria-label" matching "Close"
 * Click element with attribute "aria-label" and value "Close"
