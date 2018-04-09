@@ -16,7 +16,7 @@ Add Fire product to cart
 * Hover over "Departments" tab
 * Click text "Fire Tablets"
 
-This step is utilizing the table above and this test will be run once per entry into the tabel
+This step is utilizing the table above and this test will be run once per entry into the table
 * Click text <product>
 * Click "Add to Cart" button
 * Delay "1000" milliseconds
