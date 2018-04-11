@@ -10,7 +10,7 @@ These tests are expected to get an error message upon clicking send as the email
 
 Submit Request Missing Email and Company Name Fail Expected
 -----------------------------------------------------------
-* Verify page title matches "Intelligent Quality"
+Verify page title matches "Intelligent Quality" (available with the full version of BOLT Test only)
 * Enter text "Bob" into field with default value "Name"
 * Enter text "" into field with default value "Email Address"
 * Enter text "" into field with default value "Company Name"
@@ -19,7 +19,7 @@ Submit Request Missing Email and Company Name Fail Expected
 
 Submit Request Missing Email Only
 ---------------------------------
-* Verify page title matches "Intelligent Quality"
+Verify page title matches "Intelligent Quality" (available with the full version of BOLT Test only)
 * Enter text "Bob" into field with default value "Name"
 * Enter text "" into field with default value "Email Address"
 * Enter text "Bob Industries" into field with default value "Company Name"
