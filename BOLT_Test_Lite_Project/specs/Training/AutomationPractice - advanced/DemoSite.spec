@@ -4,7 +4,7 @@ Add To Cart Tests
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
 
-    table:specs/Training/AutomationPractice - advanced/options.csv
+    table:specs/training/automationpractice-advanced/options.csv
 
 
  * Go to AUT
