@@ -17,8 +17,7 @@ Add Shirt to Cart
 * Click "Add to cart" button
 * Click "Proceed to checkout"
 Delay to show the checkout screen
-* Delay "3000" milliseconds
-* Click defined symbol "LOGO"
+* Delay "3" seconds
 
 
 Add Shirt to Cart Using Table
@@ -28,4 +27,3 @@ Add Shirt to Cart Using Table
 * Click <Shirt>
 * Click "Add to cart" button
 * Click "Proceed to checkout"
-* Click defined symbol "LOGO"
