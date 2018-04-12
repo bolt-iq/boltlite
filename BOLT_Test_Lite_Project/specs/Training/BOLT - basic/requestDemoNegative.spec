@@ -7,6 +7,7 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
 These tests are expected to get an error message upon clicking send as the email is missing for both test cases
 
 * Go to "http://boltiq.io"
+* Scroll "DOWN" "200"
 
 Submit Request Missing Email and Company Name
 ---------------------------------------------
@@ -21,5 +22,5 @@ Submit Request Missing Email Only
 Verify page title matches "Intelligent Quality" (available with the full version of BOLT Test only)
 * Enter text "Bob" into field with default value "Name"
 * Enter text "" into field with default value "Email Address"
-* Enter text "Bob Industries" into field with default value "Company Name"
+* Enter text "Industries" into field with default value "Company Name"
 * Click "Send" button
