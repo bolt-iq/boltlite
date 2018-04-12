@@ -14,7 +14,6 @@ Add Shirt to Cart
 * Hover over "WOMEN" tab and select "Evening Dresses"
 * Click "Beige (1)" checkbox
 * Click "Printed Dress"
-* Select "M" from the "Size" dropdown
 * Click "Add to cart" button
 * Click "Proceed to checkout"
 Delay to show the checkout screen
@@ -27,7 +26,6 @@ Add Shirt to Cart Using Table
 * Hover over "WOMEN" tab and select <Category>
 * Click <Filter> checkbox
 * Click <Shirt>
-* Select <Size> from the "Size" dropdown
 * Click "Add to cart" button
 * Click "Proceed to checkout"
 * Click defined symbol "LOGO"
