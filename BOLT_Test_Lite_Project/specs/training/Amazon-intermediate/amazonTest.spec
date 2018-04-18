@@ -33,6 +33,6 @@ Add Fire TV to cart
 
 
 
----
+________________________________
 Clicking the x on the popup using the element attribute "aria-label" matching "Close"
 * Click element with attribute "aria-label" and value "Close"
